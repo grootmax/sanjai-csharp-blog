@@ -1,0 +1,157 @@
+<html>
+    <head>
+
+        <title>oops concepts</title> 
+      <link rel="stylesheet" type="text/css" href="/scss/boos.scss"/>  
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+      
+
+    </head>
+    <body>
+        
+          
+          <main>
+            <h1>oops concepts</h1>
+            <h2>: sanjai</h2>
+            <p>Object-Oriented Programming (OOP) is a programming paradigm that is widely used in C# programming. Here are the four main OOP concepts in C#:
+              </p>
+          
+            <p>1. Encapsulation:<br>
+              Encapsulation is the process of hiding the implementation details of a class from the outside world. In C#, this is typically achieved by defining private fields and methods within a class, and providing public methods to access or modify those fields.<br>
+              <br>
+              <br>
+              for example: 
+              <br>
+              <br>
+              public class Person<br>
+              {<br>
+                  private string name;<br>
+                  private int age;<br>
+                  <br>
+                  public string Name<br>
+                  {<br>
+                      get { return name; }<br>
+                      set { name = value; }<br>
+                  }<br>
+                  <br>
+                  public int Age<br>
+                  {<br>
+                      get { return age; }<br>
+                      set { age = value; }<br>
+                  }<br>
+                  <br>
+                  public void SayHello()<br>
+                  {<br>
+                      Console.WriteLine("Hello, my name is " + name + " and I am " + age + " years old.");<br>
+                  }<br>
+              }<br>
+
+            </p>
+            <br>
+            <p>2. Inheritance:<br>
+              Inheritance is the process of creating a new class from an existing class. The new class inherits all of the data and behavior of the existing class, and can add or modify that behavior as needed.<br>
+              <br>
+              <br>
+              for example:<br>
+              <br>
+              public class Animal<br>
+              {<br>
+                  public void Eat()<br>
+                  {<br>
+                      Console.WriteLine("The animal is eating.");<br>
+                  }<br>
+              }<br>
+              <br>
+              public class Dog : Animal<br>
+              {<br>
+                  public void Bark()<br>
+                  {<br>
+                      Console.WriteLine("The dog is barking.");<br>
+                  }<br>
+              }<br>
+
+            </p>
+            <br>
+          
+            <p>3. Polymorphism:<br>
+              Polymorphism is the ability of an object to take on many forms. In C#, polymorphism is typically achieved through method overriding or method overloading.<br>
+              <br>
+              <br>
+              for example: <br>
+              <br>
+                
+              public class Shape<br>
+              {<br>
+                  public virtual void Draw()<br>
+                  {<br>
+                      Console.WriteLine("Drawing a shape.");<br>
+                  }<br>
+              }<br>
+              <br>
+              public class Circle : Shape<br>
+              {<br>
+                  public override void Draw()<br>
+                  {<br>
+                      Console.WriteLine("Drawing a circle.");<br>
+                  }<br>
+              }<br>
+              <br>
+              public class Square : Shape<br>
+              {<br>
+                  public override void Draw()<br>
+                  {<br>
+                      Console.WriteLine("Drawing a square.");<br>
+                  }<br>
+              }<br>
+
+            </p>
+            <br>
+            <p>4. Abstraction:<br>
+              Abstraction is the process of simplifying complex systems by breaking them down into smaller, more manageable parts. In C#, this is typically achieved through the use of interfaces and abstract classes.<br>
+              <br>
+              <br>
+              for example:<br>
+              <br>
+              public interface IShape<br>
+              {<br>
+                  void Draw();<br>
+              }<br>
+              <br>
+              public abstract class Shape : IShape<br>
+              {<br>
+                  public abstract void Draw();<br>
+              }<br>
+              <br>
+              public class Circle : Shape<br>
+              {<br>
+                  public override void Draw()<br>
+                  {<br>
+                      Console.WriteLine("Drawing a circle.");<br>
+                  }<br>
+              }<br>
+              <br>
+              public class Square : Shape<br>
+              {<br>
+                  public override void Draw()<br>
+                  {<br>
+                      Console.WriteLine("Drawing a square.");<br>
+                  }<br>
+              }<br>
+
+            </p>
+            <br>
+        
+          
+            <p>The above parts are just a few but valuable, the book contains a lot of advice, Make sure to read completely.</p>
+          
+            
+          </main>
+          <script src="/js/boos.js"></script>
+          <footer>
+            <div class="explanation">For   <a href="/index.html" target="_blank">Home</a></div><br>
+            <div class="explanation">Designed & Developed   <a href="https://sanjais.netlify.app/" target="_blank">Sanjai</a>.</div>           
+        </footer>
+    </body>
+</html>

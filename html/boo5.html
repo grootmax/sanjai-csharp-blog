@@ -1,0 +1,90 @@
+<html>
+    <head>
+
+        <title>Variables</title> 
+      <link rel="stylesheet" type="text/css" href="/scss/boos.scss"/>  
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+      
+
+    </head>
+    <body>
+        
+          
+          <main>
+            <h1>Variables</h1>
+            <h2>: sanjai</h2>
+            <p>In C#, a variable is a named location in the computer's memory that stores a value. The value of a variable can be changed during the execution of a program. Here are some important aspects of variables in C#:
+              </p>
+          
+            <p>1. Declaring variables: <br>
+
+              ✔️ Before you can use a variable in C#, you need to declare it with a data type and a name.<br>
+              ✔️ The syntax for declaring a variable is: 'data_type variable_name;'.<br>
+              ✔️ Example: 'int age;'
+                </p>
+          
+            <p>2. Initializing variables:<br>
+
+              ✔️ Variables can be initialized with a value at the time of declaration, or later in the code.<br>
+              ✔️ The syntax for initializing a variable at declaration is: 'data_type variable_name = initial_value;'.<br>
+              ✔️ Example: 'int age = 25;'<br>
+              ✔️ To initialize a variable later in the code, assign a value to it using the assignment operator (=).<br>
+              ✔️ Example: 'age = 30;'
+            </p>
+          
+            <p>3. Variable scope:<br>
+
+              ✔️ The scope of a variable determines where it can be accessed in the code.<br>
+              ✔️ A variable declared inside a block of code is only accessible within that block of code.<br>
+              ✔️ A variable declared outside of a block of code is accessible throughout the entire code.<br>
+              ✔️ Example:<br>
+
+              int age = 25;<br>
+              if (age > 18)<br>
+              {<br>
+                  string message = "You are an adult.";<br>
+                  Console.WriteLine(message);<br>
+              }<br>
+              // age is accessible here, but message is not accessible
+
+              </p>
+          
+            <p>4. Naming conventions:<br>
+
+              ✔️ Variables in C# should follow a naming convention to make the code more readable and maintainable.<br>
+              ✔️ Use descriptive names for variables that reflect their purpose.<br>
+              ✔️ Use camelCase naming convention, where the first letter of the first word is lowercase, and the first letter of subsequent words are uppercase.<br>
+              ✔️ Example: int numberOfStudents = 20;<br>
+                </p>
+          
+            <p>5. Constant variables:<br>
+
+              ✔️ Constants are variables whose value cannot be changed once they are initialized.<br>
+              ✔️ They are declared using the const keyword.<br>
+              ✔️ Example: const double PI = 3.14;<br>
+              ✔️ Here is an example of declaring, initializing, and using variables in C#:<br>
+              <br>
+              int age;             // declaring variable<br>
+              age = 25;            // initializing variable<br>
+              string name = "John";    // declaring and initializing variable<br>
+              double height = 1.75;<br>
+              const double PI = 3.14;  // declaring and initializing constant variable<br>
+              <br>
+              Console.WriteLine("My name is " + name + ", and I am " + age + " years old.");<br>
+              Console.WriteLine("My height is " + height + " meters.");<br>
+              Console.WriteLine("The value of PI is " + PI + ".");
+            </p>
+          
+            
+          
+            
+          </main>
+          <script src="/js/boos.js"></script>
+          <footer>
+            <div class="explanation">For   <a href="/index.html" target="_blank">Home</a></div><br>
+            <div class="explanation">Designed & Developed   <a href="https://sanjais.netlify.app/" target="_blank">Sanjai</a>.</div>           
+        </footer>
+    </body>
+</html>
